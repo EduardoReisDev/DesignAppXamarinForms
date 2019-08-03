@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace DesignAppXamarinForms
+namespace DesignAppXamarinForms.Master
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Page1 : ContentPage
+    public partial class Menu : ContentPage
     {
-        public Page1()
+        public Menu()
         {
             InitializeComponent();
         }

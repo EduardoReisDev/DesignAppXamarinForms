@@ -10,7 +10,7 @@ namespace DesignAppXamarinForms
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new DesignAppXamarinForms.MainPage();
         }
 
         protected override void OnStart()
