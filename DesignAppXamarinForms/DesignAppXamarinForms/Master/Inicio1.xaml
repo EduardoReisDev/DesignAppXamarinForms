@@ -11,13 +11,13 @@
         <ContentPage Title="Menu" BackgroundColor="#0D1F2D">
             <StackLayout>
                 <StackLayout BackgroundColor="#FFC926" Padding="30">
-                    <Image Source="" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <Image Source="xamarin.png" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </StackLayout>
-                <StackLayout>
+                <StackLayout Spacing="20">
                     <Button Text="Eduardo Reis" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaPerfil1"/>
                     <Button Text="Steve Jobs" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
                     <Button Text="Bill Gates" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
-                    <Button Text="Sobre o Xmarin" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaXamarin"/>
+                    <Button Text="Sobre o Xamarin" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaXamarin"/>
                 </StackLayout>
             </StackLayout>
         </ContentPage>

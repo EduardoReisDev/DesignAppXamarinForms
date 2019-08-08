@@ -7,9 +7,42 @@
              x:Class="DesignAppXamarinForms.Pages.Perfil1">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <RelativeLayout VerticalOptions="Start" HeightRequest="240">
+                <Image Source="fundo.png" 
+                       RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
+                       />
+                <Image Source="eduardo.png"
+                       x:Name="eduardo1"
+                       WidthRequest="120"
+                       
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-60}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
+                       />
+                <Label Text="Eduardo Reis" FontSize="20"
+                       RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=eduardo1, Property=X, Factor=1}"
+                       RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=eduardo1, Property=Y, Factor=1, Constant=135}"
+                       />
+            </RelativeLayout>
+            <Grid BackgroundColor="#0D1F2D" HeightRequest="120">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="18" TextColor="White" FontSize="25"/>
+                    <Label Text="Anos" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+                </StackLayout>
+                <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="10/09/1998" TextColor="White" FontSize="25"/>
+                    <Label Text="Data de Nascimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+                </StackLayout>
+            </Grid>
+            <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <Label Text="sajhdjkahsdjkahsdjkhasdjkahsdjkshajdkhasjdhajskdhaskjdhjasdhjksahdjaskhdjashdkjashdjksakdasd"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

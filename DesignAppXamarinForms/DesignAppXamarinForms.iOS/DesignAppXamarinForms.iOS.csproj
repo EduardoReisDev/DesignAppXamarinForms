@@ -137,4 +137,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\xamarin.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\eduardo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\fundo.png" />
+  </ItemGroup>
 </Project>
