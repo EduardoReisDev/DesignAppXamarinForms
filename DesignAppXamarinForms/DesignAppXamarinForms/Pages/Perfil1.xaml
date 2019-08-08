@@ -4,17 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="DesignAppXamarinForms.Pages.Perfil1">
+             x:Class="DesignAppXamarinForms.Pages.Perfil1"
+             Title="Eduardo Reis">
     <ContentPage.Content>
         <StackLayout>
             <RelativeLayout VerticalOptions="Start" HeightRequest="240">
-                <Image Source="fundo.png" 
+                <Image Source="teste.png"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                        />
                 <Image Source="eduardo.png"
                        x:Name="eduardo1"
                        WidthRequest="120"
-                       
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-60}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
                        />
@@ -32,7 +32,7 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <Label Text="18" TextColor="White" FontSize="25"/>
+                    <Label Text="20" TextColor="White" FontSize="25"/>
                     <Label Text="Anos" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">

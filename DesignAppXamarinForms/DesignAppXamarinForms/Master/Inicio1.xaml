@@ -15,8 +15,8 @@
                 </StackLayout>
                 <StackLayout Spacing="20">
                     <Button Text="Eduardo Reis" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaPerfil1"/>
-                    <Button Text="Steve Jobs" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
-                    <Button Text="Bill Gates" FontSize="24" TextColor="White" BackgroundColor="Transparent"/>
+                    <Button Text="Steve Jobs" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaSteve"/>
+                    <Button Text="Bill Gates" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaBill"/>
                     <Button Text="Sobre o Xamarin" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaXamarin"/>
                 </StackLayout>
             </StackLayout>

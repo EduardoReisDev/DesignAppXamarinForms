@@ -27,5 +27,17 @@ namespace DesignAppXamarinForms.Master
             Detail = new NavigationPage(new Pages.Xamarin());
             IsPresented = false;
         }
+
+        private void GoPaginaSteve (object sender, EventArgs arges)
+        {
+            Detail = new NavigationPage(new Pages.Steve());
+            IsPresented = false;
+        }
+
+        private void GoPaginaBill (object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Pages.Bill());
+            IsPresented = false;
+        }
     }
 }
