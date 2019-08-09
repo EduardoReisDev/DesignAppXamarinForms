@@ -14,6 +14,7 @@
                     <Image Source="xamarin.png" HorizontalOptions="Center" VerticalOptions="Center"/>
                 </StackLayout>
                 <StackLayout Spacing="20">
+                    <Button Text="Inicio" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaInicio"/>
                     <Button Text="Eduardo Reis" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaPerfil1"/>
                     <Button Text="Steve Jobs" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaSteve"/>
                     <Button Text="Bill Gates" FontSize="24" TextColor="White" BackgroundColor="Transparent" Clicked="GoPaginaBill"/>
@@ -25,7 +26,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <pag:Perfil1/>
+                <pag:Menu/>
             </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

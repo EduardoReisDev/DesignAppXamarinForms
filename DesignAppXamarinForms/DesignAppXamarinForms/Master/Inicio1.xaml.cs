@@ -16,6 +16,12 @@ namespace DesignAppXamarinForms.Master
             InitializeComponent();
         }
 
+        private void GoPaginaInicio(object sender, EventArgs args)
+        {
+            Detail = new NavigationPage(new Pages.Menu());
+            IsPresented = false;
+        }
+
         private void GoPaginaPerfil1(object sender, EventArgs args)
         {
             Detail = new NavigationPage(new Pages.Perfil1());

@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="DesignAppXamarinForms.Pages.Steve">
+             x:Class="DesignAppXamarinForms.Pages.Steve"
+             Title="Steve Jobs">
     <ContentPage.Content>
         <StackLayout>
             <RelativeLayout VerticalOptions="Start" HeightRequest="240">
@@ -22,7 +23,7 @@
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=steve1, Property=Y, Factor=1, Constant=135}"
                        />
             </RelativeLayout>
-            <Grid BackgroundColor="#0D1F2D" HeightRequest="120">
+            <Grid BackgroundColor="#0D1F2D" HeightRequest="220">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -32,16 +33,16 @@
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
                 <StackLayout Grid.Column="0" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <Label Text="56" TextColor="White" FontSize="9"/>
-                    <Label Text="Anos" HorizontalTextAlignment="Center" TextColor="White" FontSize="5"/>
+                    <Label Text="56" TextColor="White" FontSize="18"/>
+                    <Label Text="Anos" HorizontalTextAlignment="Center" TextColor="White" FontSize="14"/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <Label Text="24/02/1955" TextColor="White" FontSize="9"/>
-                    <Label Text="Nascimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="5"/>
+                    <Label Text="24/02/1955" TextColor="White" FontSize="18"/>
+                    <Label Text="Nascimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="14"/>
                 </StackLayout>
-                <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                    <Label Text="05/10/2011" TextColor="White" FontSize="9"/>
-                    <Label Text="Morte" HorizontalTextAlignment="Center" TextColor="White" FontSize="5"/>
+                <StackLayout Grid.Column="2" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                    <Label Text="05/10/2011" TextColor="White" FontSize="18"/>
+                    <Label Text="Morte" HorizontalTextAlignment="Center" TextColor="White" FontSize="14"/>
                 </StackLayout>
             </Grid>
             <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
