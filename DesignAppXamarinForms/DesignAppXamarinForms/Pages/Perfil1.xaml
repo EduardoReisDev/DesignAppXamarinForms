@@ -37,7 +37,7 @@
                 </StackLayout>
                 <StackLayout Grid.Column="1" Grid.Row="0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Label Text="10/09/1998" TextColor="White" FontSize="25"/>
-                    <Label Text="Data de Nascimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
+                    <Label Text="Nascimento" HorizontalTextAlignment="Center" TextColor="White" FontSize="15"/>
                 </StackLayout>
             </Grid>
             <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
