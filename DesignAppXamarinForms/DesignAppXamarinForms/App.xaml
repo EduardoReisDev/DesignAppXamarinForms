@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="DesignAppXamarinForms.App">
     <Application.Resources>
-
+        
     </Application.Resources>
 </Application>

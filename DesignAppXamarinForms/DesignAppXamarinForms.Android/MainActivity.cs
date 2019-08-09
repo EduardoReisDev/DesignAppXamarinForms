@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using ImageCircle;
+using ImageCircle.Forms.Plugin.Droid;
 
 namespace DesignAppXamarinForms.Droid
 {
@@ -19,6 +21,7 @@ namespace DesignAppXamarinForms.Droid
 
             base.OnCreate(savedInstanceState);
 
+            ImageCircleRenderer.Init();
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

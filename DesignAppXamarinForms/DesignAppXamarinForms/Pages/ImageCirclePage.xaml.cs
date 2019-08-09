@@ -10,12 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace DesignAppXamarinForms.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Menu : ContentPage
+    public partial class ImageCirclePage : ContentPage
     {
-        public Menu()
+        public ImageCirclePage()
         {
             InitializeComponent();
         }
-
     }
 }

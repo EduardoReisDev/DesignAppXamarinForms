@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:custom1="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="DesignAppXamarinForms.Pages.Perfil1"
@@ -12,7 +13,7 @@
                 <Image Source="teste.png"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                        />
-                <Image Source="eduardo.png"
+                <custom1:CircleImage Source="eduardo.png"
                        x:Name="eduardo1"
                        WidthRequest="120"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-60}"
@@ -41,7 +42,7 @@
                 </StackLayout>
             </Grid>
             <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam ante, vestibulum quis massa vitae, interdum venenatis ex. Duis scelerisque turpis tellus, non gravida magna rutrum commodo. Praesent ante ante, convallis sit amet leo gravida, vestibulum congue odio. Etiam eget justo hendrerit, laoreet mi nec, tristique nunc. Ut nisi diam, ullamcorper ut dignissim eget, maximus a dolor. Ut tempus, arcu nec molestie auctor, felis tellus convallis ex, vel consectetur eros massa et diam. Donec lectus lorem, vestibulum quis vestibulum nec, volutpat at elit. Donec tempor porttitor lacus eget bibendum. Praesent lacinia vulputate tortor, ac imperdiet ex pharetra vel. Etiam eu viverra neque."/>
+                <Label Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam ante, vestibulum quis massa vitae, interdum venenatis ex. Duis scelerisque turpis tellus, non gravida magna rutrum commodo. Praesent ante ante, convallis sit amet leo gravida, vestibulum congue odio. Etiam eget justo hendrerit, laoreet mi nec, tristique nunc. Ut nisi diam, ullamcorper ut dignissim eget, maximus a dolor."/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
