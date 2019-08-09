@@ -8,7 +8,7 @@
              Title="Bill Gates">
     <ContentPage.Content>
         <StackLayout>
-            <RelativeLayout VerticalOptions="Start" HeightRequest="240">
+            <RelativeLayout VerticalOptions="Start" HeightRequest="220">
                 <Image Source="teste.png"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                        />
@@ -18,7 +18,7 @@
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-60}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
                        />
-                <Label Text="Bill Gates" FontSize="20"
+                <Label Text="Bill Gates" FontSize="28"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bill1, Property=X, Factor=1}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bill1, Property=Y, Factor=1, Constant=135}"
                        />
@@ -41,9 +41,7 @@
                 </StackLayout>
             </Grid>
             <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Label Text="William Henry Gates III (Seattle, 28 de outubro de 1955) mais conhecido como Bill Gates, é um magnata, empresário, diretor executivo, investidor, filantropo e autor americano, que ficou conhecido por fundar junto com Paul Allen a Microsoft, a maior e mais conhecida empresa de software do mundo em termos de valor de mercado.
-
-Gates ocupa atualmente o cargo de presidente não-executivo da Microsoft, além de ser classificado regularmente como a pessoa mais rica do mundo, posição ocupada por ele de 1995 a 2007, 2009, e de 2014 a 2017.É um dos pioneiros na revolução do computador pessoal."/>
+                <Label Text="William Henry Gates III (Seattle, 28 de outubro de 1955) mais conhecido como Bill Gates, é um magnata, empresário, diretor executivo, investidor, filantropo e autor americano, que ficou conhecido por fundar junto com Paul Allen a Microsoft, a maior e mais conhecida empresa de software do mundo em termos de valor de mercado."/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

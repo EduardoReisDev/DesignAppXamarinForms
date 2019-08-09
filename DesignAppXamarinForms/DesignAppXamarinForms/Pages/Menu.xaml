@@ -4,12 +4,12 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="DesignAppXamarinForms.Pages.Menu">
+             x:Class="DesignAppXamarinForms.Pages.Menu"
+             Title="Início">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Bem Vindo /n Clique no menu do canto esquerdo superior"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Bem Vindo!&#128525; &#10;Clique no menu do canto esquerdo superior"
+                   HorizontalTextAlignment="Center"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

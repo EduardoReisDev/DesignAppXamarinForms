@@ -8,7 +8,7 @@
              Title="Steve Jobs">
     <ContentPage.Content>
         <StackLayout>
-            <RelativeLayout VerticalOptions="Start" HeightRequest="240">
+            <RelativeLayout VerticalOptions="Start" HeightRequest="220">
                 <Image Source="teste.png"
                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}"
                        />
@@ -18,12 +18,12 @@
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.5, Constant=-60}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=.2}"
                        />
-                <Label Text="Steve Jobs" FontSize="20"
+                <Label Text="Steve Jobs" FontSize="24"
                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=steve1, Property=X, Factor=1}"
                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=steve1, Property=Y, Factor=1, Constant=135}"
                        />
             </RelativeLayout>
-            <Grid BackgroundColor="#0D1F2D" HeightRequest="220">
+            <Grid BackgroundColor="#0D1F2D" HeightRequest="120">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -46,7 +46,7 @@
                 </StackLayout>
             </Grid>
             <StackLayout Padding="30" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                <Label Text="Steven Paul Jobs (São Francisco, Califórnia, 24 de fevereiro de 1955 — Palo Alto, Califórnia, 5 de outubro de 2011) foi um inventor, empresário e magnata americano no setor da informática. Notabilizou-se como co-fundador, presidente e diretor executivo da Apple Inc. e por revolucionar seis indústrias: computadores pessoais, filmes de animação, música, telefones, tablets e publicações digitais. Além de sua ligação com a Apple, foi diretor executivo da empresa de animação por computação gráfica Pixar e acionista individual máximo da The Walt Disney Company. Morreu em 5 de outubro de 2011, aos 56 anos de idade, devido a um câncer pancreático."/>
+                <Label Text="Steven Paul Jobs (São Francisco, Califórnia, 24 de fevereiro de 1955 — Palo Alto, Califórnia, 5 de outubro de 2011) foi um inventor, empresário e magnata americano no setor da informática. Notabilizou-se como co-fundador, presidente e diretor executivo da Apple Inc. e por revolucionar seis indústrias: computadores pessoais, filmes de animação, música, telefones, tablets e publicações digitais."/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
