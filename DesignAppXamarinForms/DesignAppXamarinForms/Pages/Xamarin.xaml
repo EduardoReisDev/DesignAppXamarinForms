@@ -7,9 +7,20 @@
              x:Class="DesignAppXamarinForms.Pages.Xamarin">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <StackLayout BackgroundColor="#FFC926">
+                <Image Source="xamarin.png" HorizontalOptions="Center" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout HeightRequest="100" BackgroundColor="#0D1F2D" Padding="30">
+                <Label Text="Xamarin" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="48"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <StackLayout>
+                    <BoxView x:Name="d" BackgroundColor="#0D1F2D" WidthRequest="30" HeightRequest="30"/>
+                    <BoxView x:Name="b" BackgroundColor="#25567E" WidthRequest="30" HeightRequest="30"/>
+                    <BoxView x:Name="c" BackgroundColor="#4E93CB" WidthRequest="30" HeightRequest="30"/>
+                </StackLayout>
+                <Label Text="Empresa" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="48"/>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
