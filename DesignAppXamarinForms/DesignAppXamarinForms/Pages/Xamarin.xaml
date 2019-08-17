@@ -6,20 +6,28 @@
              mc:Ignorable="d"
              x:Class="DesignAppXamarinForms.Pages.Xamarin">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout BackgroundColor="#FFC926">
+        <StackLayout Spacing="0">
+            <StackLayout BackgroundColor="#FFC926" HeightRequest="100">
                 <Image Source="xamarin.png" HorizontalOptions="Center" VerticalOptions="Center"/>
             </StackLayout>
-            <StackLayout HeightRequest="100" BackgroundColor="#0D1F2D" Padding="30">
-                <Label Text="Xamarin" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="48"/>
+            <StackLayout BackgroundColor="#0D1F2D" Padding="50">
+                <Label Text="Xamarin" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="35"/>
             </StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <StackLayout>
-                    <BoxView x:Name="d" BackgroundColor="#0D1F2D" WidthRequest="30" HeightRequest="30"/>
-                    <BoxView x:Name="b" BackgroundColor="#25567E" WidthRequest="30" HeightRequest="30"/>
-                    <BoxView x:Name="c" BackgroundColor="#4E93CB" WidthRequest="30" HeightRequest="30"/>
-                </StackLayout>
-                <Label Text="Empresa" HorizontalOptions="Center" VerticalOptions="Center" TextColor="White" FontSize="48"/>
+            <StackLayout Orientation="Horizontal" Padding="30">
+                <RelativeLayout HorizontalOptions="FillAndExpand">
+                    <BoxView x:Name="boxOne" BackgroundColor="#0D1F2D" WidthRequest="30" HeightRequest="30"/>
+                    <BoxView x:Name="boxTwo" 
+                             RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxOne, Property=X, Factor=1,Constant=12}" 
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxOne, Property=Y, Factor=1,Constant=12}" 
+                        BackgroundColor="#25567E" WidthRequest="30" HeightRequest="30"/>
+                    <BoxView RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxTwo, Property=X, Factor=1,Constant=12}" 
+                             RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxTwo, Property=Y, Factor=1,Constant=12}" 
+                        BackgroundColor="#4E93CB" WidthRequest="30" HeightRequest="30"/>
+                </RelativeLayout>
+                <Label HorizontalOptions="CenterAndExpand" FontSize="25" Text="Empresa" VerticalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout Padding="20">
+                <Label Text="A Xamarin é uma empresa de software de propriedade da Microsoft, sediada em San Francisco, fundada em maio de 2011 pelos engenheiros que criaram o Mono, Xamarin.Android e Xamarin.iOS, que são implementações de plataforma cruzada da Common Language Infrastructure e Common Language Specifications."/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
